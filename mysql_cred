@@ -1,0 +1,7 @@
+create new user
+
+
+mysql> create user 'demo'@'localhost' identified by 'password';
+Query OK, 0 rows affected (0.01 sec)
+
+GRANT ALL PRIVILEGES ON database_name.* TO 'username'@'localhost';

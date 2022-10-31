@@ -1,0 +1,47 @@
+
+
+github token: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
+
+sumanyadav9898
+
+
+<script>
+function te
+
+
+<div>
+<div class="flowbot-message-boxs flowbot-shadows appear-plus">
+                                <textarea class="form-control" rows="3" maxlength="1024" v-model="response.body"
+                                          placeholder="Body Text" id="span"></textarea>
+                  <a href="javascript:void(0)" class="flowbot-plus-link"
+                     v-on:click="open_response_option(i)"><i class="fa fa-plus"></i></a>
+                </div>
+
+  <input disabled maxlength="3" size="3" value="10" id="counter">
+  <textarea onkeyup="textCounter(this,'counter',10);" id="message">
+</textarea>
+
+</div>
+<br>
+<input disabled maxlength="3" size="3" value="10" id="counter1">
+<textarea onkeyup="textCounter(this,'counter1',10);" id="message">
+</textarea>
+
+<script>
+  function textCounter(field, field2, maxlimit) {
+    console.log(field);
+    console.log(field2);
+    console.log(maxlimit);
+    //alert(field + field2  + maxlimit);
+    var countfield = document.getElementById(field2);
+    /* $(field2).html(text_remaining); */
+    if (field.value.length > maxlimit) {
+      field.value = field.value.substring(0, maxlimit);
+      return false;
+    } else {
+      countfield.value = maxlimit - field.value.length;
+    }
+  }
+
+</script>
+

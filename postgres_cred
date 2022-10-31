@@ -1,0 +1,12 @@
+postgres_cred
+
+GRANT SELECT ON students TO PUBLIC;
+
+
+
+
+role: postgresql
+username:postgres
+password:Postgre@123
+GRANT ALL PRIVILEGES ON DATABASE students TO postgres;
+
